@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FRAME GUID="2FB25471-B62C-4EE6-BD43-F819C095ACF8" FORMAT="0000" APP_VERSION="2.2.0.8" CHECKSUM="3F8292B82B9529DD">
+  <PROJECT FORMAT="1.00" NAME="my-issues-generator" AUTHOR="lordasgart" CREATED="2021.03.01 06:22:13" MODIFIED="2021.03.01 09:41:26">
+    <DIAGRAMS>
+      <DIAGRAM FORMAT="1.00" ID="0" NAME="Hauptprogramm 1" CREATED="2021.03.01 06:22:40" MODIFIED="2021.03.01 09:41:26">
+        <LAYOUT FORMAT="1.00" COLUMNS="2" ROWS="10">
+          <ENTRIES>
+            <ENTRY COLUMN="0" ROW="0" ANCHOR="True">
+              <FIGURE SUBTYPE="PapTitle" FORMAT="1.00" ID="0">
+                <TEXT><![CDATA[Hauptprogramm 1]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="1">
+              <FIGURE SUBTYPE="PapStart" FORMAT="1.00" ID="1">
+                <TEXT><![CDATA[Start]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="2">
+              <FIGURE SUBTYPE="PapInput" FORMAT="1.00" ID="4">
+                <TEXT><![CDATA[Lesen aller Unterverzeichnisse von my-issues]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="3">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="6">
+                <TEXT><![CDATA[Suche der passenden Hauptüberschrift]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="4">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="8">
+                <TEXT><![CDATA[Suche der Vorgangsnummer]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="5">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="10">
+                <TEXT><![CDATA[Wenn nicht existent]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="6">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="12">
+                <TEXT><![CDATA[Lesen des Vorgangtitels aus HTML-Seite]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="7">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="14">
+                <TEXT><![CDATA[Einfügen eines Markdownlinks]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="8">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="16">
+                <TEXT><![CDATA[Speichern der README.md]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="9">
+              <FIGURE SUBTYPE="PapEnd" FORMAT="1.00" ID="2">
+                <TEXT><![CDATA[Ende]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="2">
+              <FIGURE SUBTYPE="PapInput" FORMAT="1.00" ID="18">
+                <TEXT><![CDATA[Eingabe von
+- URL z.B. https://jira.it2media.de/browse/IMS-30
+- MarkDown-Link
+- Direkte Eingabe der Nummer]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+          </ENTRIES>
+        </LAYOUT>
+        <CONNECTIONS>
+          <CONNECTION FORMAT="1.00" ID="3" FROM="1" TO="4" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="5" FROM="4" TO="6" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="7" FROM="6" TO="8" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="9" FROM="8" TO="10" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="11" FROM="10" TO="12" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="13" FROM="12" TO="14" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="15" FROM="14" TO="16" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="17" FROM="16" TO="2" TEXT="" />
+        </CONNECTIONS>
+      </DIAGRAM>
+    </DIAGRAMS>
+  </PROJECT>
+</FRAME>
